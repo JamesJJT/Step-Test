@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="DBEntities">
+    <EntitySetMapping Name="Results">
+      <EntityTypeMapping TypeName="Database1Model.Result">
+        <MappingFragment StoreEntitySet="Results">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Tester_Initial" ColumnName="Tester Initial" />
+          <ScalarProperty Name="HR_I" ColumnName="HR I" />
+          <ScalarProperty Name="HR_II" ColumnName="HR II" />
+          <ScalarProperty Name="HR_III" ColumnName="HR III" />
+          <ScalarProperty Name="HR_IV" ColumnName="HR IV" />
+          <ScalarProperty Name="HR_V" ColumnName="HR V" />
+          <ScalarProperty Name="Date_of_test" ColumnName="Date of test" />
+          <ScalarProperty Name="Aerobic_Capacity" ColumnName="Aerobic Capacity" />
+          <ScalarProperty Name="Fitness_rating" ColumnName="Fitness rating" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Male" ColumnName="Male" />
+          <ScalarProperty Name="Female" ColumnName="Female" />
+          <ScalarProperty Name="C15cm" ColumnName="15cm" />
+          <ScalarProperty Name="C20cm" ColumnName="20cm" />
+          <ScalarProperty Name="C25cm" ColumnName="25cm" />
+          <ScalarProperty Name="C30cm" ColumnName="30cm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

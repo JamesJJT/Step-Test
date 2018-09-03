@@ -1,0 +1,17 @@
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/obj/Debug/Step_Test.Form1.resources
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/obj/Debug/Step_Test.Properties.Resources.resources
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/Model1.edmx.diagram
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/Database1.mdf
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/Database1_log.ldf
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/Model1.Context.tt
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/Model1.tt
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/Step Test.exe.config
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/Step Test.exe.mdb
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/Step Test.pdb
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/Step Test.exe
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/obj/Debug/Step Test.exe
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/obj/Debug/Step Test.exe.mdb
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/obj/Debug/Step Test.pdb
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/EntityFramework.dll
+/Volumes/NO NAME/Programming coursework/Step Test/Step Test/bin/Debug/EntityFramework.SqlServer.dll

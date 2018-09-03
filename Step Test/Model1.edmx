@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Results">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="Age" Type="varchar" MaxLength="50" />
+          <Property Name="Tester Initial" Type="varchar" MaxLength="50" />
+          <Property Name="HR I" Type="varchar" MaxLength="50" />
+          <Property Name="HR II" Type="varchar" MaxLength="50" />
+          <Property Name="HR III" Type="varchar" MaxLength="50" />
+          <Property Name="HR IV" Type="varchar" MaxLength="50" />
+          <Property Name="HR V" Type="varchar" MaxLength="50" />
+          <Property Name="Date of test" Type="varchar" MaxLength="10" />
+          <Property Name="Aerobic Capacity" Type="varchar" MaxLength="50" />
+          <Property Name="Fitness rating" Type="varchar" MaxLength="50" />
+          <Property Name="Remarks" Type="varchar" MaxLength="200" />
+          <Property Name="Male" Type="bit" />
+          <Property Name="Female" Type="bit" />
+          <Property Name="15cm" Type="bit" />
+          <Property Name="20cm" Type="bit" />
+          <Property Name="25cm" Type="bit" />
+          <Property Name="30cm" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="Database1ModelStoreContainer">
+          <EntitySet Name="Results" EntityType="Self.Results" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Result">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Age" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Tester_Initial" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="HR_I" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="HR_II" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="HR_III" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="HR_IV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="HR_V" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Date_of_test" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Aerobic_Capacity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Fitness_rating" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Remarks" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Male" Type="Boolean" />
+          <Property Name="Female" Type="Boolean" />
+          <Property Name="C15cm" Type="Boolean" />
+          <Property Name="C20cm" Type="Boolean" />
+          <Property Name="C25cm" Type="Boolean" />
+          <Property Name="C30cm" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="DBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Results" EntityType="Self.Result" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="DBEntities">
+          <EntitySetMapping Name="Results">
+            <EntityTypeMapping TypeName="Database1Model.Result">
+              <MappingFragment StoreEntitySet="Results">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Tester_Initial" ColumnName="Tester Initial" />
+                <ScalarProperty Name="HR_I" ColumnName="HR I" />
+                <ScalarProperty Name="HR_II" ColumnName="HR II" />
+                <ScalarProperty Name="HR_III" ColumnName="HR III" />
+                <ScalarProperty Name="HR_IV" ColumnName="HR IV" />
+                <ScalarProperty Name="HR_V" ColumnName="HR V" />
+                <ScalarProperty Name="Date_of_test" ColumnName="Date of test" />
+                <ScalarProperty Name="Aerobic_Capacity" ColumnName="Aerobic Capacity" />
+                <ScalarProperty Name="Fitness_rating" ColumnName="Fitness rating" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="Male" ColumnName="Male" />
+                <ScalarProperty Name="Female" ColumnName="Female" />
+                <ScalarProperty Name="C15cm" ColumnName="15cm" />
+                <ScalarProperty Name="C20cm" ColumnName="20cm" />
+                <ScalarProperty Name="C25cm" ColumnName="25cm" />
+                <ScalarProperty Name="C30cm" ColumnName="30cm" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

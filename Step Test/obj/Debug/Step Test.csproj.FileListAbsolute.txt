@@ -1,0 +1,44 @@
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Step Test.exe.config
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Step Test.exe
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Step Test.pdb
+K:\Programming coursework\Step Test\Step Test\obj\Debug\Step Test.csprojResolveAssemblyReference.cache
+K:\Programming coursework\Step Test\Step Test\obj\Debug\Step_Test.Form1.resources
+K:\Programming coursework\Step Test\Step Test\obj\Debug\Step_Test.Properties.Resources.resources
+K:\Programming coursework\Step Test\Step Test\obj\Debug\Step Test.csproj.GenerateResource.Cache
+K:\Programming coursework\Step Test\Step Test\obj\Debug\Step Test.exe
+K:\Programming coursework\Step Test\Step Test\obj\Debug\Step Test.pdb
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Step Test.exe.config
+E:\Programming coursework\Step Test\Step Test\obj\Debug\Step Test.exe
+E:\Programming coursework\Step Test\Step Test\obj\Debug\Step Test.pdb
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Step Test.exe
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Step Test.pdb
+E:\Programming coursework\Step Test\Step Test\obj\Debug\Step Test.csprojResolveAssemblyReference.cache
+E:\Programming coursework\Step Test\Step Test\obj\Debug\Step_Test.Form1.resources
+E:\Programming coursework\Step Test\Step Test\obj\Debug\Step_Test.Properties.Resources.resources
+E:\Programming coursework\Step Test\Step Test\obj\Debug\Step Test.csproj.GenerateResource.Cache
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Database1.mdf
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Database1_log.ldf
+K:\Programming coursework\Step Test\Step Test\bin\Debug\EntityFramework.dll
+K:\Programming coursework\Step Test\Step Test\bin\Debug\EntityFramework.SqlServer.dll
+K:\Programming coursework\Step Test\Step Test\bin\Debug\EntityFramework.xml
+K:\Programming coursework\Step Test\Step Test\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programming coursework\Step Test\Step Test\bin\Debug\EntityFramework.dll
+E:\Programming coursework\Step Test\Step Test\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programming coursework\Step Test\Step Test\bin\Debug\EntityFramework.xml
+E:\Programming coursework\Step Test\Step Test\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.Context.tt
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.tt
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.Context.cs
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.cs
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.Designer.cs
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Result.cs
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.edmx.diagram
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Database1.mdf
+E:\Programming coursework\Step Test\Step Test\bin\Debug\Database1_log.ldf
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.Context.tt
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.tt
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.Context.cs
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.cs
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.Designer.cs
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Result.cs
+K:\Programming coursework\Step Test\Step Test\bin\Debug\Model1.edmx.diagram

@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{13AE99DA-3A7C-4195-BA5C-A5C9BA07B128}|Default">
+  <MonoDevelop.Ide.ItemProperties.Step_220Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Step Test/Form1.cs">
+    <Files>
+      <File FileName="Step Test/Form1.cs" Line="284" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
